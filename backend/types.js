@@ -1,4 +1,4 @@
-import { z } from "zod";
+const z = require("zod");
 
 const createTodoSchema = z.object({
   title: z.string(),
